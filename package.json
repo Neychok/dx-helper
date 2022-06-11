@@ -1,8 +1,18 @@
 {
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon index.js | pino-pretty",
+    "dev": "concurrently --kill-others \"npm run start\" \"lt -p 6969 -s devrix --print-requests \""
   },
   "dependencies": {
-    "@slack/bolt": "^3.11.1"
+    "@slack/bolt": "^3.11.1",
+    "asana": "^0.18.14",
+    "dotenv": "^16.0.1"
+  },
+  "devDependencies": {
+    "concurrently": "^7.2.1",
+    "localtunnel": "^2.0.2",
+    "nodemon": "^2.0.16",
+    "pino": "^8.0.0",
+    "pino-pretty": "^8.0.0"
   }
 }
