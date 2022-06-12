@@ -1,0 +1,17 @@
+[
+  {
+    "id": "1",
+    "question": "How to do that",
+    "answers": ["Answer 1", "Answer 2", "Answer 3"]
+  },
+  {
+    "id": "2",
+    "question": "How to do that 2",
+    "answers": ["Answer 1", "Answer 2", "Answer 3"]
+  },
+  {
+    "id": "3",
+    "question": "How to do that 3",
+    "answers": ["Answer 1", "Answer 2", "Answer 3"]
+  }
+]

@@ -1,7 +1,21 @@
 {
+  "name": "dx-helper",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neychok/dx-helper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Neychok/dx-helper/issues"
+  },
+  "homepage": "https://github.com/Neychok/dx-helper#readme",
+  "description": "",
   "scripts": {
     "start": "nodemon index.js | pino-pretty",
-    "dev": "concurrently --kill-others \"npm run start\" \"lt -p 6969 -s devrix --print-requests \""
+    "start-tunnel": "concurrently --kill-others \"npm run start\" \"lt -p 6969 -s devrix --print-requests \""
   },
   "dependencies": {
     "@slack/bolt": "^3.11.1",
