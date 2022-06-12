@@ -2,7 +2,7 @@
 const { App } = require("@slack/bolt");
 const logger = require("pino")();
 const Asana = require("asana");
-const { helpMe } = require("./blockController.js");
+const { helpMe } = require("./blockBuilder.js");
 
 if (process.env.NODE_ENV !== "production") {
   require("dotenv").config();
